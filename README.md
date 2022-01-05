@@ -10,6 +10,9 @@
 1. staged：对比已暂存的文件与最后一次提交的文件差异。
 2. cached：查看已经暂存的变化。
 
+##### git commit：提交更新
+参数：
+
 ##### git add <file>：暂存文件
 
 ### .gitignore文件
