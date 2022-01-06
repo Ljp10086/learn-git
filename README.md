@@ -86,7 +86,15 @@ v1.5
 
 #### 分支
 ##### 创建分支：```git branch testing```
-
+##### 删除分支：```git branch -d testing```
+##### 切换分支：```git checkout testing```
+##### 新建同时切换分支：```git checkout -b testing```
+带有```-b```参数的```git checkout```命令是以下两条命令的简写
+```
+git branch testing
+git checkout testing
+```
+##### 合并分支：```git merge testing```
 
 #### .gitignore文件
 ```
