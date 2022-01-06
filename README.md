@@ -85,16 +85,24 @@ v1.5
 
 
 #### 分支
-##### 创建分支：```git branch testing```
-##### 删除分支：```git branch -d testing```
-##### 切换分支：```git checkout testing```
-##### 新建同时切换分支：```git checkout -b testing```
+##### 本地分支：
+###### 创建分支：```git branch testing```
+参数：
+1. -d：删除分支
+2. --merged：查看哪些分支已经合并到当前分支
+3. --no-merged：查看哪些分支没有合并到当前分支
+###### 切换分支：```git checkout testing```
+###### 新建同时切换分支：```git checkout -b testing```
 带有```-b```参数的```git checkout```命令是以下两条命令的简写
 ```
 git branch testing
 git checkout testing
 ```
-##### 合并分支：```git merge testing```
+###### 合并分支：```git merge testing```
+
+##### 远程分支：
+###### 推送：git push origin testing
+
 
 #### .gitignore文件
 ```
