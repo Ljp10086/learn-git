@@ -27,6 +27,14 @@
 1. p：查看提交差异
 2. --stat：查看简短信息
 
+##### git submodule：子模块
+
+##### git stash：贮藏
+参数：
+1. list：显示贮藏列表
+2. drop：删除栈顶贮藏
+3. apply：取出栈顶贮藏
+
 #### tag
 
 ##### git tag：打标签
